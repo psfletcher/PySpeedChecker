@@ -113,7 +113,7 @@ if (localtime[4] == 00):
     WriteToFileIncHeader(file_Output, SpeedTest_CSVHeader, data)
 elif (localtime[4] == 10):
     print "10"
-    Test_Location = 1153
+    Test_Location = 4379
     data = func_speedtester(Test_Location)
     print data
     file_Output = (Home_Path + OP_Year + '-' + OP_Month + '-' + OP_Day + '-' + Test_Type + str(Test_Location) + Test_File_Type)
@@ -121,7 +121,7 @@ elif (localtime[4] == 10):
     WriteToFileIncHeader(file_Output, SpeedTest_CSVHeader, data)
 elif (localtime[4] == 20):
     print "20"
-    Test_Location = 1153
+    Test_Location = 8713
     data = func_speedtester(Test_Location)
     print data
     file_Output = (Home_Path + OP_Year + '-' + OP_Month + '-' + OP_Day + '-' + Test_Type + str(Test_Location) + Test_File_Type)
@@ -129,7 +129,7 @@ elif (localtime[4] == 20):
     WriteToFileIncHeader(file_Output, SpeedTest_CSVHeader, data)
 elif (localtime[4] == 30):
     print "30"
-    Test_Location = 1153
+    Test_Location = 1234
     data = func_speedtester(Test_Location)
     print data
     file_Output = (Home_Path + OP_Year + '-' + OP_Month + '-' + OP_Day + '-' + Test_Type + str(Test_Location) + Test_File_Type)
@@ -137,7 +137,7 @@ elif (localtime[4] == 30):
     WriteToFileIncHeader(file_Output, SpeedTest_CSVHeader, data)
 elif (localtime[4] == 40):
     print "40"
-    Test_Location = 1153
+    Test_Location = 1685
     data = func_speedtester(Test_Location)
     print data
     file_Output = (Home_Path + OP_Year + '-' + OP_Month + '-' + OP_Day + '-' + Test_Type + str(Test_Location) + Test_File_Type)
@@ -145,7 +145,7 @@ elif (localtime[4] == 40):
     WriteToFileIncHeader(file_Output, SpeedTest_CSVHeader, data)
 elif (localtime[4] == 59):
     print "50"
-    Test_Location = 1153
+    Test_Location = 6523
     data = func_speedtester(Test_Location)
     print data
     file_Output = (Home_Path + OP_Year + '-' + OP_Month + '-' + OP_Day + '-' + Test_Type + str(Test_Location) + Test_File_Type)
